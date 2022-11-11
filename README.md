@@ -32,4 +32,4 @@ https://storage.googleapis.com/dumb-video-storage/redirect.html
 
 or directly w/o a redirect:
 
-https://storage.cloud.google.com/dumb-video-storage/video_directory.html?authuser=1
+https://storage.cloud.google.com/dumb-video-storage/video_directory.html
