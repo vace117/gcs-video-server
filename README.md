@@ -1,4 +1,4 @@
-This 
+This is a very simple way of serving files to authenticated Google users from GCS buckets.
 
 # Create bucket 
 `gs://dumb-video-storage`
