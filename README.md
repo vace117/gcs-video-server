@@ -18,8 +18,12 @@ Now upload any videos referenced from `video_directory.html`.
 
 # Expose Public Entrypoint
 ```
-gsutil acl ch -u AllUsers:R gs://dumb-video-storage/redirect.html
+gsutil acl ch -u AllUsers:READ gs://dumb-video-storage/redirect.html
 ```
+
+# Authorize Specific Users
+gsutil acl ch -u john.doe@google.com:READ gs://dumb-video-storage/video_directory.html
+gsutil acl ch -u john.doe@google.com:READ gs://dumb-video-storage/videos/**
 
 # Access the videos
 https://storage.googleapis.com/dumb-video-storage/redirect.html
