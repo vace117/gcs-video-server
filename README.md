@@ -14,6 +14,8 @@ gsutil -m cp redirect.html gs://dumb-video-storage/redirect.html
 gsutil -m cp video_directory.html gs://dumb-video-storage/video_directory.html
 ```
 
+Now upload any videos referenced from `video_directory.html`.
+
 # Expose Public Entrypoint
 ```
 gsutil acl ch -u AllUsers:R gs://dumb-video-storage/redirect.html
